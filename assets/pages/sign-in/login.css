@@ -44,18 +44,25 @@ form>h4 {
   color: #115c8f
 }
 
-.campos>label>a {
+.campos>a {
   color: #115c8f
 }
 
-.campos>label>a:hover {
+.campos>p {
+  color: #115c8f
+}
+
+
+.campos>label.recordar:hover {
   color: #ff9203;
   text-decoration: none
 }
 
-.recordarme:hover {
+.campos>a:hover {
   color: #ff9203;
+  text-decoration: none
 }
+
 
 .campos>input {
   border-radius: 10px;
