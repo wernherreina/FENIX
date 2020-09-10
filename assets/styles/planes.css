@@ -13,7 +13,7 @@ body {
 }
 
 .boton-color {
-    color: #ff9203;
+    color: #ff9203 !important;
 
     border-color: var(--segundo);
 }
