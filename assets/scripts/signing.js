@@ -6,7 +6,7 @@ function validarFormulario(evento){
     if (inputUser.value != '' && inputPsw.value != '') {
         swal("Muy bien", "Información correcta", "success")
         setTimeout(() => {
-            window.location = './gestion.html'
+            window.location = './consolidacion_page.html'
         }, 2000)
     } else {
         swal("error", "Hay campos sin diligenciar", "error")
