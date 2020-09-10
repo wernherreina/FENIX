@@ -9,11 +9,11 @@
 
 body {
     /* background-image: linear-gradient(rgb(138, 196, 255), rgb(138, 196, 255)), url(../img/adrian-cogua-s5TgQBT0jL4-unsplash.jpg); */
-    background-image: url(../img/carlos-andres-gomez-cqvioEWmQQQ-unsplash.jpg);
+/*     background-image: url(../img/carlos-andres-gomez-cqvioEWmQQQ-unsplash.jpg); */
 }
 
 .boton-color {
-    color: #ff9203;
+    color: #ff9203 !important;
 
     border-color: var(--segundo);
 }

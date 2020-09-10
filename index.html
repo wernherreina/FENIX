@@ -11,8 +11,6 @@
     <link rel="icon" type="image/x-icon" href="./assets/src/images/LOGO FENIX.png" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-    <!--  <script src="js/holamundo.js"></script> !!!!!ELIMINAR -->
-    <!-- <script src="./assets/scripts/holamundo.js"></script>   PROVISIONAL  !!!!!ELIMINAR -->
 
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
@@ -23,7 +21,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="./assets/styles/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/styles/bootstrap.min.css">
-
+    <link rel="stylesheet" href="./assets/styles/planes.css">
 </head>
 
 <body id="page-top">
@@ -34,8 +32,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./assets/img/LOGOS FENIX con nombre.png" alt="" /></a> !!!!!ELIMINAR-->
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img
-                    src="./assets/img/logos/LOGO FENIX.svg" alt=""/></a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./assets/img/logos/LOGO FENIX.svg"
+                    alt="LogoFenix" /></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -48,12 +46,12 @@
                                 class="fa fa-users"></i> HOME</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"><i
                                 class="fa fa-briefcase"></i> MÓDULOS</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"><i
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portafalio"><i
                                 class="fa fa-credit-card"></i> PLANES</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"><i
                                 class="fa fa-address-book"></i> CONTÁCTANOS</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger"
-                            href="./assets/pages/sign-in/login.html"><i class="fa fa-user"></i> Iniciar Sesión</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./assets/pages/login.html"><i
+                                class="fa fa-user"></i> Iniciar Sesión</a></li>
                     <!-- PROVISIONAL HREF CON CSS  !!!!!ELIMINAR -->
                 </ul>
             </div>
@@ -240,100 +238,113 @@
     <!-------------------------------------INICIO PLANES EXTERNO--------------------------------------------------->
     <!-- Portfolio Grid-->
     <center>
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">PLANES</h2>
-                    <h3 class="section-subheading text-muted">Tenemos los mejores precios para tu Iglesia.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="./assets/src/images/portfolio/01-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+        <!-- PLANES -->
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto cambio-fuente text-center text-white" id="portafalio">
+            <h1 class="display-4 ">Planes</h1>
+            <p class="lead">Adquiere el plan que más se ajuste a las necesidades de tu comunidad</p>
+        </div>
+        <div class="container cambio-fuente">
+            <div class="row">
+                <div class="card-deck mb-3 text-center ">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class=" card mb-4 shadow-sm animacion">
+                            <div class="card-header">
+                                <h4 class="my-0 font-weight-normal text-primary text-primary">Inicial</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$22 <small class="text-muted">/ mes</small>
+                                </h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>150 miembros</li>
+                                    <li>20 usuarios</li>
+                                    <li>Registro de personas</li>
+                                    <li>Grupos de estudio</li>
+                                    <li>Indicadores y seguimiento</li>
+                                    <li>1 Iglesia</li>
+                                </ul>
+                                <button type="button"
+                                    class="btn btn-lg btn-block btn-outline-primary">Suscríbete</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="./assets/src/images/portfolio/02-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card mb-4 shadow-sm animacion">
+                            <div class="card-header">
+                                <h4 class="my-0 font-weight-normal text-primary">Básico</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mes</small>
+                                </h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>250 miembros</li>
+                                    <li>50 usuarios</li>
+                                    <li>Registro de personas</li>
+                                    <li>Grupos de estudio</li>
+                                    <li>Registro de asistencias</li>
+                                    <li>Indicadores y seguimiento</li>
+                                    <li>Certificados</li>
+                                    <li>1 Iglesia</li>
+                                </ul>
+                                <button type="button"
+                                    class="btn btn-lg btn-block btn-outline-primary ">Suscríbete</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="./assets/src/images/portfolio/03-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card mb-4 shadow-sm animacion">
+                            <div class="card-header">
+                                <h4 class="my-0 font-weight-normal text-primary">Estandar</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mes</small>
+                                </h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>500 miembros por Iglesia</li>
+                                    <li>80 usuarios</li>
+                                    <li>Registro de personas</li>
+                                    <li>Grupos de estudio</li>
+                                    <li>Ministerios</li>
+                                    <li>Registro de asistencias</li>
+                                    <li>Indicadores y seguimiento</li>
+                                    <li>Aportes</li>
+                                    <li>Certificados</li>
+                                    <li>2 Iglesias</li>
+                                </ul>
+                                <button type="button"
+                                    class="btn btn-lg btn-block btn-outline-primary">Suscríbete</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="./assets/src/images/portfolio/04-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card mb-4 shadow-sm animacion">
+                            <div class="card-header">
+                                <h4 class="my-0 font-weight-normal text-primary">Premium</h4>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="./assets/src/images/portfolio/05-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="./assets/src/images/portfolio/06-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mes</small>
+                                </h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>4000 miembros por Iglesia</li>
+                                    <li>100 usuarios</li>
+                                    <li>Registro de personas</li>
+                                    <li>Ministerios</li>
+                                    <li>Grupos de estudio</li>
+                                    <li>Registro de asistencias</li>
+                                    <li>Indicadores y seguimiento</li>
+                                    <li>Aportes</li>
+                                    <li>Certificados</li>
+                                    <li>Hasta 5 Iglesias</li>
+                                </ul>
+                                </ul>
+                                <button type="button"
+                                    class="btn btn-lg btn-block btn-outline-primary">Suscríbete</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- ejemplo -->
     </center>
     <!------------------------------------------FIN PLANES EXTERNO---------------------------------------------------->
 
@@ -567,7 +578,6 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="./assets/src/images/team/1.jpg" alt="" />
                         <h4>Yisel</h4>
                         <p class="text-muted">Product Owner</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -577,7 +587,6 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="./assets/src/images/team/1.jpg" alt="" />
                         <h4>Maria Fernanda</h4>
                         <p class="text-muted">Lider Desarrollo</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -587,9 +596,8 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="./assets/src/images/team/2.jpg" alt="" />
                         <h4>Wernher</h4>
-                        <p class="text-muted">Ing. de Asuntos sin Importancia</p>
+                        <p class="text-muted">Desarrollador</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-phone"></i></a>
@@ -597,7 +605,6 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="./assets/src/images/team/3.jpg" alt="" />
                         <h4>Yurani</h4>
                         <p class="text-muted">Scrum Master</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
