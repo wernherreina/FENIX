@@ -1,0 +1,39 @@
+:root {
+    --primero: #fed136;
+    --segundo: #ff9203;
+    --tercero: #115c8f;
+    --cuarto: #8ac4ff;
+}
+
+
+
+body {
+    /* background-image: linear-gradient(rgb(138, 196, 255), rgb(138, 196, 255)), url(../img/adrian-cogua-s5TgQBT0jL4-unsplash.jpg); */
+    background-image: url(../img/carlos-andres-gomez-cqvioEWmQQQ-unsplash.jpg);
+}
+
+.boton-color {
+    color: #ff9203;
+
+    border-color: var(--segundo);
+}
+
+.cambio-fuente {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* .animacion:hover {
+    transform: scale(1.1);
+
+} */
+
+.animacion {
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.animacion:hover {
+    transform: scale(1.1);
+
+}
