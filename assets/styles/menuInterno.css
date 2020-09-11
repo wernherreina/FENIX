@@ -32,5 +32,8 @@
 
 .colorFondo2 > ul >li >a:hover{
     color: #8ac4ff !important;
-    
 }
+
+/* .menuLateral{
+    position: sticky;
+} */
