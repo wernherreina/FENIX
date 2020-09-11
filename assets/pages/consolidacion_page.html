@@ -37,8 +37,6 @@
 
   <nav class="navbar navbar-light colorFondo fixed-top">
     <div class="navbar-brand d-flex">
-      <!-- <img src="../../assets/img/logos/LOGO FENIX.svg" width="50" height="50" alt="LogoFenix"
-          class="d-inline-block align-top ml-5" loading="lazy"> -->
       <h2 class="letra ml-2">FÉNIX MINISTERIAL</h2>
       <span class="letra ml-3 mt-1"> | </span>
       <h5 class="letra ml-3 mt-2">CONSOLIDACIÓN</h5>
@@ -63,7 +61,7 @@
 
       <div class="col-md-3 colorFondo2">
         <div class="position-fixed">
-          <img src="../img/logos/LOGO_FENIX.png" alt="" width="160" height="160" class="ml-5">
+          <img src="../img/logos/LOGO_FENIX4.jpeg" alt="" width="160" height="160" class="ml-5">
           <hr>
           <ul class="nav flex-column">
             <li class="nav-item">
@@ -77,11 +75,11 @@
                   class="fas fa-church"></i>MINISTERIOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#"><i
+              <a class="nav-link active" href="./gruposestudio.html"><i
                   class="fas fa-users"></i>GRUPOS DE ESTUDIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="../pages/aportes/aporte.html"><i class="fas fa-hands"></i>APORTES</a>
+              <a class="nav-link active" href="./aporte.html"><i class="fas fa-hands"></i>APORTES</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="../../index.html"><i class="fas fa-door-closed"></i>CERRAR SESIÓN</a>
@@ -100,8 +98,10 @@
             </div>
         </section>
 
+
         <form class="form-horizontal">
           <fieldset>
+
 
             <!-- Form Name -->
             <legend>Ingreso Nuevo Creyente</legend>
@@ -123,10 +123,9 @@
             <div class="form-row">
               <!-- input Red-->
               <div class="form-group col-md-6">
-                <label for="textinput">Red</label>
-                <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md"
+                <label for="textinput">* Red</label>
+                <input id="textinput" name="textinput" type="text" class="form-control input-md"
                   required="">
-                <span class="help-block">*</span>
               </div>
 
               <!-- Select Multiple Mentor inmediato -->
@@ -143,17 +142,15 @@
 
               <!-- input Nombre-->
               <div class="form-group col-md-6">
-                <label for="nombre">Nombres</label>
-                <input type="text" class="form-control" id="nombre">
-                <span class="help-block">*</span>
+                <label for="nombre">* Nombres</label>
+                <input id="nombre" name="nombre" type="text" class="form-control input-md" required="">
               </div>
 
               <!-- input Apellidos-->
               <div class="form-group col-md-6">
-                <label class="col-md-6 control-label" for="apellidos">Apellidos</label>
+                <label class="col-md-6 control-label" for="apellidos">* Apellidos</label>
                 <input id="apellidos" name="apellidos" type="text" placeholder="" class="form-control input-md"
                   required="">
-                <span class="help-block">*</span>
               </div>
             </div>
 
@@ -170,10 +167,9 @@
 
               <!-- input Documento -->
               <div class="form-group col-md-6">
-                <label for="documento">Documento</label>
+                <label for="documento">* Documento</label>
                 <input id="documento" name="documento" type="text" placeholder="numero documento"
                   class="form-control input-md" required="">
-                <span class="help-block">*</span>
               </div>
             </div>
 
@@ -191,9 +187,8 @@
 
               <!-- input Documento -->
               <div class="form-group col-md-6">
-                <label for="edad">Edad</label>
+                <label for="edad">* Edad</label>
                 <input id="edad" name="edad" type="number" placeholder="" class="form-control input-md" required="">
-                <span class="help-block">*</span>
               </div>
             </div>
 
@@ -226,20 +221,18 @@
             <div class="form-row">
               <!-- e-mail Input-->
               <div class="form-group col-md-6">
-                <label for="email">e-mail</label>
+                <label for="email">* e-mail</label>
                 <div class="input-group">
                   <input id="email" name="email" class="form-control" placeholder="" type="text" required="">
                   <span class="input-group-addon">@</span>
                 </div>
-                <p class="help-block">*</p>
               </div>
 
               <!-- input Celular -->
               <div class="form-group col-md-6">
-                <label for="celular">Celular</label>
+                <label for="celular">* Celular</label>
                 <input id="celular" name="celular" type="text" placeholder="numero celular"
                   class="form-control input-md" required="">
-                <span class="help-block">*</span>
               </div>
 
 
@@ -318,6 +311,231 @@
           </fieldset>
         </form>
 
+        <section class="page-section" id="services">
+          <div class="container">
+      
+            <h2 class="text-center mt-0">¡Consolidación de Feligreses!</h2>
+            <hr class="divider my-4" />
+            <br>
+            <div class="row">
+              <div class="col-lg-12">
+      
+                <div class="table-responsive">
+                  <div class="agregar" style="text-align: end; margin: 10px;">
+                    <button type="button" style="border-radius: 20px; text-align: center;" class="btn btn-primary "
+                      data-toggle="modal" data-target="#modalusuario"><i class="fas fa-user-plus"
+                        style="letter-spacing: 8px;"></i>Lista Personas</button>
+                    <br>
+                  </div>
+                  <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+      
+                    <thead style="text-align:center;">
+      
+      
+                      <tr>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Nombres</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Apellidos</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Tipo Documento</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Documento</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Genero</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Edad</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Número De Celular</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">e-mail</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Barrio</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Fecha Llegada</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Fecha Salida</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Red</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Mentor</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Estado</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                          style="width: 91.3333px;" aria-sort="ascending"
+                          aria-label="Nombres: activate to sort column descending">Acción</th>
+                      </tr>
+                    </thead>
+      
+      
+                    <tbody style="text-align:center;">
+                      <tr class="">
+                        <td>Juan Jose</td>
+                        <td>Sanchez Perez </td>
+                        <td>CC</td>
+                        <td>80123456</td>
+                        <td>Masculino</td>
+                        <td>22</td>
+                        <td>3112223344</td>
+                        <td>juan.sanchez@bictia.com</td>
+                        <td>Colina Campestre</td>
+                        <td>27/07/2020</td>
+                        <td>n/a</td>
+                        <td>Alabanza</td>
+                        <td>Gante Gebel</td>
+                        <td>
+                          <button class="btn btn-success" style="border-radius: 20px; text-align: center;">Activo</button>
+                        </td>
+      
+                        <td style="color: white; display: inline-flex;">
+                          <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#modaleditar">Edit</button>
+                          <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                            data-target="#modalver">Detail</button>
+                          <button type="button" class="btn btn-outline-danger" data-toggle="modal"
+                            data-target="#modaleli">Delete</button>
+                        </td>
+                      </tr>
+      
+                      <tr style="">
+                        <td>Tatiana</td>
+                        <td>de los Rios</td>
+                        <td>CC</td>
+                        <td>1032555666</td>
+                        <td>Femenino</td>
+                        <td>44</td>
+                        <td>3153404040</td>
+                        <td>tatiana.rios@bictia.com</td>
+                        <td>Santa Librada</td>
+                        <td>02/09/2020</td>
+                        <td>08/09/2020</td>
+                        <td>Alabanza</td>
+                        <td>Gante Gebel</td>
+                        <td>
+                          <button class="btn btn-dark" style="border-radius: 20px; text-align: center;">Inactivo</button>
+                        </td>
+      
+                        <td style="color: white; display: inline-flex;">
+                          <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#modaleditar">Edit</button>
+                          <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                            data-target="#modalver">Detail</button>
+                          <button type="button" class="btn btn-outline-danger" data-toggle="modal"
+                            data-target="#modaleli">Delete</button>
+                        </td>
+                      </tr>
+      
+                      <tr style="">
+                        <td>Andres</td>
+                        <td>Bedoya</td>
+                        <td>CC</td>
+                        <td>1010456789</td>
+                        <td>Masculino</td>
+                        <td>50</td>
+                        <td>3208203050</td>
+                        <td>andres.bedoya@bictia.com</td>
+                        <td>Chapinero</td>
+                        <td>29/01/2020</td>
+                        <td>n/a</td>
+                        <td>audivisuales</td>
+                        <td>Jota Mario Valencia</td>
+                        <td>
+                          <button class="btn btn-danger" style="border-radius: 20px; text-align: center;">Al rojo</button>
+                        </td>
+      
+                        <td style="color: white; display: inline-flex;">
+                          <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#modaleditar">Edit</button>
+                          <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                            data-target="#modalver">Detail</button>
+                          <button type="button" class="btn btn-outline-danger" data-toggle="modal"
+                            data-target="#modaleli">Delete</button>
+                        </td>
+                      </tr>
+      
+                      <tr style="">
+                        <td>Stephan</td>
+                        <td>Peterhansen </td>
+                        <td>CE</td>
+                        <td>1056789</td>
+                        <td>Masculino</td>
+                        <td>58</td>
+                        <td>34898009980</td>
+                        <td>stephan.Peterhansen@bictia.com</td>
+                        <td>rosales</td>
+                        <td>22/04/2020</td>
+                        <td>n/a</td>
+                        <td>audivisuales</td>
+                        <td>Jota Mario Valencia</td>
+                        <td>
+                          <button class="btn btn-warning"
+                            style="border-radius: 20px; text-align: center;">Seguimiento</button>
+                        </td>
+      
+                        <td style="color: white; display: inline-flex;">
+                          <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#modaleditar">Edit</button>
+                          <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                            data-target="#modalver">Detail</button>
+                          <button type="button" class="btn btn-outline-danger" data-toggle="modal"
+                            data-target="#modaleli">Delete</button>
+                        </td>
+                      </tr>
+      
+                      <tr style="">
+                        <td>Samuel David</td>
+                        <td>Gamba López </td>
+                        <td>TI</td>
+                        <td>100506178</td>
+                        <td>Masculino</td>
+                        <td>10</td>
+                        <td>3204506070</td>
+                        <td>samuel.gamba@bictia.com</td>
+                        <td>aures</td>
+                        <td>22/30/2020</td>
+                        <td>n/a</td>
+                        <td>Infantil</td>
+                        <td>Memo Orozco</td>
+                        <td>
+                          <button class="btn btn-warning"
+                            style="border-radius: 20px; text-align: center;">Seguimiento</button>
+                        </td>
+      
+                        <td style="color: white; display: inline-flex;">
+                          <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#modaleditar">Edit</button>
+                          <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                            data-target="#modalver">Detail</button>
+                          <button type="button" class="btn btn-outline-danger" data-toggle="modal"
+                            data-target="#modaleli">Delete</button>
+                        </td>
+                      </tr>
+                    </tbody>
+      
+                    <tfoot style="text-align: center;">
+                    </tfoot>
+                  </table>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
       </div>
     </div>
@@ -333,7 +551,7 @@
   <!------------------------------------------------INICIO TABLA ---------------------------------------------->
 
   <!-- Servicios-->
-  <section class="page-section" id="services">
+  <!-- <section class="page-section" id="services">
     <div class="container">
 
       <h2 class="text-center mt-0">¡Consolidación de Feligreses!</h2>
@@ -546,34 +764,17 @@
                       data-target="#modaleli">Delete</button>
                   </td>
                 </tr>
-
               </tbody>
+
               <tfoot style="text-align: center;">
-                <!--           <tr>
-                <th>Nombres</th>
-                <th>Apellidos</th>
-                <th>Tipo Documento</th>
-                <th>Documento</th>
-                <th>Genero</th>
-                <th>Edad</th>
-                <th>Número De Celular</th>
-                <th>e-mail</th>
-                <th>Barrio</th>
-                <th>Fecha Llegada</th>
-                <th>Fecha Salida</th>
-                <th>Red</th>
-                <th>Mentor</th>
-                <th>Estado</th>
-                <th>Acción</th>
-            </tr> -->
               </tfoot>
             </table>
+
           </div>
         </div>
       </div>
-
     </div>
-  </section>
+  </section> -->
 
   <!-- Modales-->
   <div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
