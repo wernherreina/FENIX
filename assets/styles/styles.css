@@ -10103,15 +10103,11 @@ img::-moz-selection {
 }
 
 @media (min-width: 992px) {
-<<<<<<< HEAD
-/*  #mainNav {
-=======
   #mainNav .navbar-brand img {
     height: 5rem;
     transition: height 0.3s ease-in-out;
   }
 /*   #mainNav {
->>>>>>> 65cf5ef93921c876cf6edbe9470f333c73886361
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;

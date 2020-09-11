@@ -63,18 +63,18 @@
                                     class="fa fa-users"></i>CONSOLIDACION</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i
-                                class="fas fa-church"></i>MINISTERIOS</a>
+                            <a class="nav-link" href="./ministerios.html"><i class="fas fa-church"></i>MINISTERIOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./gruposestudio.html"><i
-                                class="fas fa-users"></i>GRUPOS DE ESTUDIO</a>
+                            <a class="nav-link active" href="./gruposestudio.html"><i class="fas fa-users"></i>GRUPOS DE
+                                ESTUDIO</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="aporte.html"><i class="fas fa-hands"></i>APORTES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../../index.html"><i class="fas fa-door-closed"></i>CERRAR SESIÓN</a>
+                            <a class="nav-link active" href="../../index.html"><i class="fas fa-door-closed"></i>CERRAR
+                                SESIÓN</a>
                         </li>
                 </div>
                 </ul>
@@ -325,203 +325,209 @@
         </div>
     </div>
 
- <!--FIN MODAL INGRESO APORTE-->
+    <!--FIN MODAL INGRESO APORTE-->
 
 
-<!-- INICIO MODALE EDITAR REGISTRO-->
-<div class="modal fade" id="modaleditar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Editar Registro Aporte</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+    <!-- INICIO MODALE EDITAR REGISTRO-->
+    <div class="modal fade" id="modaleditar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Editar Registro Aporte</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputFecha">Fecha Aporte: </label>
+                                    <input type="date" id="fecha" name="fechnac" class="form-control" required
+                                        autofocus>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputDoc">Número de Identificación: </label>
+                                    <input type="text" id="identi" name="identificacion"
+                                        placeholder="Ingresa Número de Identificación" class="form-control" required
+                                        autofocus>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputDoc">Nombre: </label>
+                                    <input type="text" id="identi" name="identificacion" placeholder="Nombre Completo"
+                                        class="form-control" required autofocus>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Clase Aporte</label>
+                                <select class="form-control" id="tipo">
+                                    <option>Seleccione Clase de Aporte</option>
+                                    <option>Diezmo</option>
+                                    <option>Ofrenda</option>
+                                    <option>Primicia</option>
+                                    <option>Otros</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Fondo</label>
+                                <select class="form-control" id="tipo">
+                                    <option>Seleccione el Fondo</option>
+                                    <option>General</option>
+                                    <option>Ministerio Juvenil</option>
+                                    <option>Ministerio Infantil</option>
+                                    <option>Misiones</option>
+                                    <option>Otros</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Tipo Aporte</label>
+                                <select class="form-control" id="tipo">
+                                    <option>Seleccione Tipo de Aporte</option>
+                                    <option>Monetario</option>
+                                    <option>Especifico</option>
+                                    <option>Otros</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputDoc">Cantidad: </label>
+                                    <input type="text" id="identi" name="identificacion" placeholder="Ingresa el Valor"
+                                        class="form-control" required autofocus>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputDoc">Nota: </label>
+                                    <input type="text" id="identi" name="identificacion"
+                                        placeholder="Ingresa Alguna Observación" class="form-control" required
+                                        autofocus>
+                                </div>
+                            </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-success">Confirmar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-         <form>
-            <form>
-                <div class="row">
-                    <div class="col">
-                        <label for="inputFecha">Fecha Aporte: </label>
-                        <input type="date" id="fecha" name="fechnac" class="form-control" required autofocus>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label for="inputDoc">Número de Identificación: </label>
-                        <input type="text" id="identi" name="identificacion"
-                            placeholder="Ingresa Número de Identificación" class="form-control" required
-                            autofocus>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label for="inputDoc">Nombre: </label>
-                        <input type="text" id="identi" name="identificacion" placeholder="Nombre Completo"
-                            class="form-control" required autofocus>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Clase Aporte</label>
-                    <select class="form-control" id="tipo">
-                        <option>Seleccione Clase de Aporte</option>
-                        <option>Diezmo</option>
-                        <option>Ofrenda</option>
-                        <option>Primicia</option>
-                        <option>Otros</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Fondo</label>
-                    <select class="form-control" id="tipo">
-                        <option>Seleccione el Fondo</option>
-                        <option>General</option>
-                        <option>Ministerio Juvenil</option>
-                        <option>Ministerio Infantil</option>
-                        <option>Misiones</option>
-                        <option>Otros</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Tipo Aporte</label>
-                    <select class="form-control" id="tipo">
-                        <option>Seleccione Tipo de Aporte</option>
-                        <option>Monetario</option>
-                        <option>Especifico</option>
-                        <option>Otros</option>
-                    </select>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label for="inputDoc">Cantidad: </label>
-                        <input type="text" id="identi" name="identificacion" placeholder="Ingresa el Valor"
-                            class="form-control" required autofocus>
-                    </div>
-
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label for="inputDoc">Nota: </label>
-                        <input type="text" id="identi" name="identificacion"
-                            placeholder="Ingresa Alguna Observación" class="form-control" required autofocus>
-                    </div>
-                </div>
-        </div>
-        <div class="modal-footer">
-          
-          <button type="button" class="btn btn-success">Confirmar</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
     </div>
-  </div>
-  
-  <!-- FIN MODALE EDITAR REGISTRO-->
-  
-  <!-- INICIO MODALE VER REGISTRO-->
-  <div class="modal fade" id="modalver" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ver Registro Aporte</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+
+    <!-- FIN MODALE EDITAR REGISTRO-->
+
+    <!-- INICIO MODALE VER REGISTRO-->
+    <div class="modal fade" id="modalver" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ver Registro Aporte</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputFecha">Fecha Aporte: </label>
+                                    <input type="date" id="fecha" name="fechnac" class="form-control" required
+                                        autofocus>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputDoc">Número de Identificación: </label>
+                                    <input type="text" id="identi" name="identificacion"
+                                        placeholder="Ingresa Número de Identificación" class="form-control" required
+                                        autofocus>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputDoc">Nombre: </label>
+                                    <input type="text" id="identi" name="identificacion" placeholder="Nombre Completo"
+                                        class="form-control" required autofocus>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Clase Aporte</label>
+                                <select class="form-control" id="tipo">
+                                    <option>Seleccione Clase de Aporte</option>
+                                    <option>Diezmo</option>
+                                    <option>Ofrenda</option>
+                                    <option>Primicia</option>
+                                    <option>Otros</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Fondo</label>
+                                <select class="form-control" id="tipo">
+                                    <option>Seleccione el Fondo</option>
+                                    <option>General</option>
+                                    <option>Ministerio Juvenil</option>
+                                    <option>Ministerio Infantil</option>
+                                    <option>Misiones</option>
+                                    <option>Otros</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Tipo Aporte</label>
+                                <select class="form-control" id="tipo">
+                                    <option>Seleccione Tipo de Aporte</option>
+                                    <option>Monetario</option>
+                                    <option>Especifico</option>
+                                    <option>Otros</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputDoc">Cantidad: </label>
+                                    <input type="text" id="identi" name="identificacion" placeholder="Ingresa el Valor"
+                                        class="form-control" required autofocus>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputDoc">Nota: </label>
+                                    <input type="text" id="identi" name="identificacion"
+                                        placeholder="Ingresa Alguna Observación" class="form-control" required
+                                        autofocus>
+                                </div>
+                            </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-success">Confirmar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-         <form>
-            <form>
-                <div class="row">
-                    <div class="col">
-                        <label for="inputFecha">Fecha Aporte: </label>
-                        <input type="date" id="fecha" name="fechnac" class="form-control" required autofocus>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label for="inputDoc">Número de Identificación: </label>
-                        <input type="text" id="identi" name="identificacion"
-                            placeholder="Ingresa Número de Identificación" class="form-control" required
-                            autofocus>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label for="inputDoc">Nombre: </label>
-                        <input type="text" id="identi" name="identificacion" placeholder="Nombre Completo"
-                            class="form-control" required autofocus>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Clase Aporte</label>
-                    <select class="form-control" id="tipo">
-                        <option>Seleccione Clase de Aporte</option>
-                        <option>Diezmo</option>
-                        <option>Ofrenda</option>
-                        <option>Primicia</option>
-                        <option>Otros</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Fondo</label>
-                    <select class="form-control" id="tipo">
-                        <option>Seleccione el Fondo</option>
-                        <option>General</option>
-                        <option>Ministerio Juvenil</option>
-                        <option>Ministerio Infantil</option>
-                        <option>Misiones</option>
-                        <option>Otros</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Tipo Aporte</label>
-                    <select class="form-control" id="tipo">
-                        <option>Seleccione Tipo de Aporte</option>
-                        <option>Monetario</option>
-                        <option>Especifico</option>
-                        <option>Otros</option>
-                    </select>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label for="inputDoc">Cantidad: </label>
-                        <input type="text" id="identi" name="identificacion" placeholder="Ingresa el Valor"
-                            class="form-control" required autofocus>
-                    </div>
-
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label for="inputDoc">Nota: </label>
-                        <input type="text" id="identi" name="identificacion"
-                            placeholder="Ingresa Alguna Observación" class="form-control" required autofocus>
-                    </div>
-                </div>
-        </div>
-        <div class="modal-footer">
-          
-          <button type="button" class="btn btn-success">Confirmar</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
     </div>
-  </div>
-  <!-- FIN MODALE VER REGISTRO-->  
+    <!-- FIN MODALE VER REGISTRO-->
 
     <!-- INICIO MODALE ELIMINAR REGISTRO-->
     <div class="modal fade" id="modaleli" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
