@@ -8,7 +8,7 @@
   <meta name="author" content="" />
   <title>FENIX/Consolidación</title>
   <!-- <link rel="icon" type="image/x-icon" href="assets/img/LOGOS FENIX.png" />  !!!!!ELIMINAR-->
-  <link rel="icon" type="image/x-icon" href="./assets/src/images/LOGO FENIX.png" />
+  <link rel="icon" type="image/x-icon" href="../img/logos/LOGO_FENIX.png" />
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
   <!--  <script src="js/holamundo.js"></script> !!!!!ELIMINAR -->
@@ -35,18 +35,20 @@
 <body id="page-top">
   <!----------------------------------------------- INICIO NAV MF------------------------------------------------------>
 
-    <nav class="navbar navbar-light colorFondo fixed-top">
-      <div class="navbar-brand d-flex">
-        <!-- <img src="../../assets/img/logos/LOGO FENIX.svg" width="50" height="50" alt="LogoFenix"
+  <nav class="navbar navbar-light colorFondo fixed-top">
+    <div class="navbar-brand d-flex">
+      <!-- <img src="../../assets/img/logos/LOGO FENIX.svg" width="50" height="50" alt="LogoFenix"
           class="d-inline-block align-top ml-5" loading="lazy"> -->
-        <h2 class="letra ml-2">FÉNIX MINISTERIAL</h2>
-      </div>
-      
-      <form class="d-flex mr-2">
-        <input class="form-control mr-2 buscador" placeholder="Buscar">
-        <i class="fas fa-search align-self-center lupa"></i>
-      </form>
-    </nav>
+      <h2 class="letra ml-2">FÉNIX MINISTERIAL</h2>
+      <span class="letra ml-3 mt-1"> | </span>
+      <h5 class="letra ml-3 mt-2">CONSOLIDACIÓN</h5>
+    </div>
+
+    <form class="d-flex mr-2">
+      <input class="form-control mr-3 buscador" placeholder="Buscar">
+      <i class="fas fa-search align-self-center lupa"></i>
+    </form>
+  </nav>
 
 
   <!----------------------------------------------- FIN NAV MF------------------------------------------------------>
@@ -57,31 +59,37 @@
   <!-- INICIO SIDEBAR IZQUIERDO MF-->
 
   <div class="container-fluid mt-3">
-    <div class="row ">
+    <div class="row">
+
       <div class="col-md-3 colorFondo2">
-        <img src="../img/logos/LOGOS FENIX.png" alt="" width="160" height="160" class="ml-5">
-        <hr>
-
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="#"><i class="fa fa-users"></i>CONSOLIDACION</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-church"></i>MINISTERIOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#"><i class="fas fa-users"></i>GRUPOS DE ESTUDIO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="../pages/aportes/aporte.html"><i class="fas fa-hands"></i>APORTES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="../../index.html"><i class="fas fa-door-closed"></i>CERRAR SESIÓN</a>
-          </li>
-
-        </ul>
+        <div class="position-fixed">
+          <img src="../img/logos/LOGO_FENIX.png" alt="" width="160" height="160" class="ml-5">
+          <hr>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="./consolidacion_page.html"><i
+                  class="fa fa-users"></i>CONSOLIDACIÓN</a>
+              <!-- <a class="nav-link active" href="#" onclick="identificacionModulos(event, this)"><i
+                  class="fa fa-users"></i>CONSOLIDACION</a> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i
+                  class="fas fa-church"></i>MINISTERIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i
+                  class="fas fa-users"></i>GRUPOS DE ESTUDIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../pages/aportes/aporte.html"><i class="fas fa-hands"></i>APORTES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../../index.html"><i class="fas fa-door-closed"></i>CERRAR SESIÓN</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <!-- Inicio Sidebar izquierdo MafeHidalgo-->
+      <!-- FIN SIDEBAR IZQUIERDO MF-->
 
       <div class="col-md-9">
         <section class="page-section" id="contact mt-200">
@@ -1007,6 +1015,7 @@
 
   <!-- código JS propìo-->
   <script type="text/javascript" src="../scripts/consolidacion.js"></script>
+  <script src="../scripts/menuInterno.js"></script>
 
 
   <!-- <script src="assets/mail/jqBootstrapValidation.js"></script> !!!!!!!!!! ELIMINAR-->
