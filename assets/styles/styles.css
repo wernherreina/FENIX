@@ -10103,7 +10103,7 @@ img::-moz-selection {
 }
 
 @media (min-width: 992px) {
-  #mainNav {
+/*  #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
@@ -10136,7 +10136,7 @@ img::-moz-selection {
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
-}
+}*/
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
