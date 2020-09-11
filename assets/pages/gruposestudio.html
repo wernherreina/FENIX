@@ -1,126 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FENIX/Grupos de Estudio</title>
 
-    <!-- Google fonts-->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>FENIX/Grupos de Estudio</title>
+  <!-- <link rel="icon" type="image/x-icon" href="assets/img/LOGOS FENIX.png" />  !!!!!ELIMINAR-->
+  <link rel="icon" type="image/x-icon" href="./assets/src/images/LOGO FENIX.png" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+
+  <!-- Google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
     type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    
-  <!-- CSS MENUS  -->
-    <link href="../styles/styles.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../styles/menuInterno.css">
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="../styles/styles.css" rel="stylesheet" />
+  <link href="../styles/consolidacion_page.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 </head>
+
 <body>
-  <!----------------------------------------------- INICIO MENÚ------------------------------------------------------>
-  <!-- Navigation-->
+  <!----------------------------------------------- INICIO NAV MF------------------------------------------------------>
 
-
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-      <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./assets/img/LOGOS FENIX con nombre.png" alt="" /></a> !!!!!ELIMINAR-->
-      <a class="navbar-brand " href="#page-top"><img src="../img/logos/LOGO FENIX.svg" alt="" /></a>
-      <!-- <h2>FÉNIX MINISTERIAL</h2> -->
-      <!-- ESTE BOTÓN HACE QUE AL REDUCIR LA PANTALLA SALGA UN MENÚ PARA VER LOS COMPONENTES DEL NAVBAR SUPERIOR MH<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars ml-1"></i>
-      </button> -->
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services"><i class="fa fa-users"></i>
-              CONSOLIDACION</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"><i class="fa fa-briefcase"></i>
-              MINISTERIOS</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"><i class="fa fa-credit-card"></i>
-              INDICADORES Y SEGUIMIENTOS</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"><i
-                class="fa fa-address-book"></i>GRUPOS DE ESTUDIO</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"><i
-                class="fa fa-address-book"></i>APORTES</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../pages/sign-in/sinnin.html"><i
-                class="fa fa-user"></i> Cerrar Sesión</a></li>
-        </ul>
-      </div>
+  <nav class="navbar navbar-light colorFondo fixed-top">
+    <div class="navbar-brand d-flex">
+      <!-- <img src="../../assets/img/logos/LOGO FENIX.svg" width="50" height="50" alt="LogoFenix"
+        class="d-inline-block align-top ml-5" loading="lazy"> -->
+      <h2 class="letra ml-2">FÉNIX MINISTERIAL</h2>
     </div>
+
+    <form class="d-flex mr-2">
+      <input class="form-control mr-2 buscador" placeholder="Buscar">
+      <i class="fas fa-search align-self-center lupa"></i>
+    </form>
   </nav>
 
-  <!----------------------------------------------- FIN MENÚ------------------------------------------------------>
 
-
+  <!----------------------------------------------- FIN NAV MF------------------------------------------------------>
 
   <!----------------------------------------------INICIO FORMULARIO CONSOLIDADCION-------------------------------------------->
-  <section class="page-section" id="contact mt-200">
-    <div class="container mt-200">
-      <div class="text-center mt-200">
-        <h2 class="section-heading text-uppercase">GRUPOS DE ESTUDIO</h2>
-        <h3 class="section-subheading text-muted">Módulo Grupos de Estudio.</h3>
+
+
+  <!-- INICIO SIDEBAR IZQUIERDO MF-->
+
+  <div class="container-fluid mt-3">
+    <div class="row ">
+      <div class="col-md-3 colorFondo2">
+        <img src="../img/logos/LOGOS FENIX.png" alt="" width="160" height="160" class="ml-5">
+        <hr>
+
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="./consolidacion_page.html"><i class="fa fa-users"></i>CONSOLIDACION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-church"></i>MINISTERIOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./gruposestudio.html"><i class="fa fa-users"></i>GRUPOS DE ESTUDIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./aporte.html"><i class="fas fa-hands"></i>APORTES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../../index.html"><i class="fas fa-door-closed"></i>CERRAR
+              SESIÓN</a>
+          </li>
+
+        </ul>
       </div>
+      <!-- Inicio Sidebar izquierdo MafeHidalgo-->
 
-      <!-- INICIO SIDEBAR IZQUIERDO MF-->
+      <div class="col-md-9">
+        <section class="page-section" id="contact mt-200">
+          <div class="container mt-200">
+            <div class="text-center mt-200">
+              <h2 class="section-heading text-uppercase">GRUPOS DE ESTUDIO</h2>
+              <h3 class="section-subheading text-muted">Crecimiento Espiritual.</h3>
+            </div>
+        </section>
 
-      <div class="container-fluid mt-5">
-        <div class="row">
-            <div class="col-md-3 bg-warning">
+        <!-- Form Name -->
+        <legend>Grupos de Estudio</legend>
 
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="#"><i class="fa fa-users"></i>CONSOLIDACION</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">MINISTERIOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">INDICADORES Y SEGUIMIENTOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="./gruposestudio.html">GRUPOS DE ESTUDIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./aporte.html">APORTES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="../../index.html">CERRAR SESIÓN</a>
-              </li>
-              <!--                             <li class="nav-item dropdown ml-md-auto">
-                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">GRUPOS DE ESTUDIO</a>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                     <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-                                    <div class="dropdown-divider">
-                                    </div> <a class="dropdown-item" href="#">Separated link</a>
-                                </div>
-                            </li> -->
-            </ul>
+        <!-- CASRS BOOTSTRAP-->
+        <div class="card-deck">
+          <div class="card">
+            <img src="../img/about/7f66720d-5eca-493f-bf6e-6af63778b9af.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">ESCUELA DE SIERVOS</h5>
+              </div>
           </div>
-          <!-- Inicio Sidebar izquierdo MafeHidalgo-->
-
-          <div class="col-md-9">
-
-            <form class="form-horizontal">
-              <fieldset>
-
-                <!-- Form Name -->
-                <legend>Grupos de Estudio</legend>
-
-
-            </fieldset>
-        </div>    
+          <div class="card">
+            <img src="../img/about/CASA RESTAURACION.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CASAS DE RESTAURACION</h5>
+            </div>
+          </div>
         </div>
 
+        <br> </br>
 
-      
+        <div class="card-deck">
+          <div class="card">
+            <img src="../img/about/CELULA.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CELULAS</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/about/ESCUELA DOMINICAL.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ESCUELA DOMINICAL</h5>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 
 
 
 
+  <!----------------------------------------------INICIO FOOTER--------------------------------------------------->
 
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 text-lg-left"></div>
+        <div class="col-lg-4 my-3 my-lg-0">
+          <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-phone"></i></a>
+        </div>
+
+      </div>
+    </div>
+    <center>
+      <a class="alert-primary">Fenix es un Desarrollo creado durante el Bootcamp de Fullstack Bictia 2020</a>.
+      <p>Creado por Yisel - Maria Fernanda - Wernher - Yurani </p>
+    </center>
+
+  </footer>
+  <!----------------------------------------------FIN FOOTER------------------------------------------------------>
 
 </body>
+
 </html>

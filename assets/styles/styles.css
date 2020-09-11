@@ -10103,7 +10103,15 @@ img::-moz-selection {
 }
 
 @media (min-width: 992px) {
+<<<<<<< HEAD
 /*  #mainNav {
+=======
+  #mainNav .navbar-brand img {
+    height: 5rem;
+    transition: height 0.3s ease-in-out;
+  }
+/*   #mainNav {
+>>>>>>> 65cf5ef93921c876cf6edbe9470f333c73886361
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
@@ -10129,7 +10137,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
     height: 5rem;
-  }
+  } */
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
   }
@@ -10505,3 +10513,4 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
